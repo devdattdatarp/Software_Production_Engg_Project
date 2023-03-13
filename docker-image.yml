@@ -10,10 +10,6 @@
       tag: latest
       source: pull
 
-      shell: sudo docker pull devdattdatar/calculator-devops
-      tag: latest
-      pull: always
-
     - name: Create & Start Calculator Docker Container
       docker_container:
       name: calculator-devops
@@ -21,4 +17,3 @@
       state: started
       tty: yes
       interactive: yes
-      shell: sudo docker run -itd --name calculator-1 devdattdatar/calculator-devops && sudo docker start -a -i calculator-1
