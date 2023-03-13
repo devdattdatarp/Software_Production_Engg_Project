@@ -1,1 +1,1 @@
-172.16.142.18 ansible_user=dev
+172.16.142.18 ansible_user=dev ansible_password=1947pkmdev
