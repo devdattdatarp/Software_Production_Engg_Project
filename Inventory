@@ -1,1 +1,2 @@
 172.16.142.18 ansible_connection=ssh ansible_ssh_user=dev ansible_ssh_pass=1947pkmdev
+172.17.0.3 ansible_connection=ssh ansible_ssh_user=dev ansible_ssh_pass=dev123
